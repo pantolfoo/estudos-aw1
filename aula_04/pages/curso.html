@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Formulário </title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <form id="formulario">
+    <fieldset>
+      <legend>Qual seu curso?</legend>
+      <p>
+        <input type="radio" name="curso" id="curso_1" value="Eletrônica" />
+        <label for="curso_1">Eletrônica</label>
+      </p>
+      <p>
+        <input type="radio" name="curso" id="curso-2" value="Eletrotécnica" />
+        <label for="curso_2">Eletrotécnica</label>
+      </p>
+      <p>
+        <input type="radio" name="curso" id="curso_3" value="Informática" />
+        <label for="curso_3">Informática</label>
+      </p>
+      <p>
+        <input type="radio" name="curso" id="curso_4" value="Mecânica" />
+        <label for="curso_3">Mecânica</label>
+      </p>
+    </fieldset>
+
+    <h3> Eletrônica</h3>
+    <fieldset>
+      <input type="checkbox" name="materia" value="ELB"> ELB <br>
+      <input type="checkbox" name="materia" value="DETC"> DTEC <br>
+      <input type="checkbox" name="materia" value="DTE"> DTE <br>
+
+      <p>Representante</p>
+
+      <select name="profesores" id="">
+        <option value="Aline">Aline</option>
+        <option value="Daniel">Daniel</option>
+        <option value="Djair">Djair</option>
+      </select>
+
+      <p>Quão bom é o representante?</p>
+      <input type="range" name="" id="" min="0" max="100">
+
+    </fieldset>
+
+
+    <h3> Informática</h3>
+    <fieldset>
+      <input type="checkbox" name="materia" value="AW1"> AW1 <br>
+      <input type="checkbox" name="materia" value="LP3"> LP3 <br>
+      <input type="checkbox" name="materia" value="TPO"> TPO <br>
+      <input type="checkbox" name="materia" value="TDS"> TDS <br>
+
+
+      <p>Representante</p>
+
+      <select name="profesores" id="">
+        <option value="LUK">Luk</option>
+        <option value="Latorre">Latorre</option>
+        <option value="Motta">Motta</option>
+        <option value="Motta">Motta</option>
+      </select>
+
+      <p>Quão bom é o representante?</p>
+      <input type="range" name="" id="" min="0" max="100">
+
+    </fieldset>
+
+    <br><br>
+    
+    <input type="reset" value="">
+
+  </form>
+
+  <center>
+    <textarea name="" id="textarea" cols="30" rows="10">
+    </textarea>
+  </center>
+  <br><br><br><br>
+
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+body{
+    background-color: #ccccff;
+}
+table{
+    border: 2px solid;
+    color:#043075;
+    border: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+td, th{
+    border: 2px solid;
+    padding:8px;
+}
+
+h1{
+    color: #0c3d3c
+}
