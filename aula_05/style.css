@@ -1,0 +1,41 @@
+*{
+    background-color: #836FFF;
+}  
+h1{
+    background-color: #483D8B;
+    color:#B0C4DE;
+    text-align: center;
+    font-size: 40px;
+}  
+#p1{
+    color: #483D8B;
+    background-color: #B0C4DE;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#p2{
+    color: #483D8B;
+    background-color:#DDA0DD;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#marquee{
+    background-color: #483D8B;
+    color:#B0C4DE;
+    text-align: center;
+    font-size: 40px;
+}
+
+#opc{
+    background-color: #483D8B;
+}
+#div{
+    align-items: center;
+    background-color:#DDA0DD;
+}
