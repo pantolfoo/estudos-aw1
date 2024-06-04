@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    background-color: #6c7321;
+}
+
+h4{
+    color: #b8bd7e;
+    font-size: 40px;
+    text-align: center;
+    background-color: #444a01;
+    border-radius: 15px;
+    font-family: 'Pacifico';
+
+
+}
+
+p{
+    color: #444a01;
+    text-align: center;
+    font-family: 'Sans';
+    font-size: 30px;
+    background-color: #b8bd7e;
+    border-radius: 15px;
+}
