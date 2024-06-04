@@ -8,3 +8,4 @@ Este repositório tem como objetivo, armazenar e controlar os códigos da discip
 ### - Aula 03 - tabelas
 ### - Aula 04 - formulário
 ### - Aula 05 - introdução ao css
+### - Aula 06 - css + cores hsl
