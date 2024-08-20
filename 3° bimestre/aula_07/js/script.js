@@ -10,14 +10,5 @@ var numero = 2;
 // window.alert ('criou??')
 
 // funcao:
-var x = prompt ("digite um valor");
 
-function fatorial(x){
-    if (x === 0 || x === 1){
-        return 1;
-    }
-
-    else{
-        return 0;
-    }
-}
+document.write(nome);
